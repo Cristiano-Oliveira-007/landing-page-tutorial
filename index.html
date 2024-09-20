@@ -1,48 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/styles/style.css" rel="stylesheet">
-    <link href="/styles/fonts.css" rel="stylesheet">
-    <link href="/styles/media.css" rel="stylesheet">
-    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Gueasy</title>
 </head>
-<body>
-    <header>
-        <div id="title">
-            <h1>Marketing</h1>
-            <h1>Criativo</h1>
-        </div>
 
-        <ul>
-            <a href="#"><li>Início</li></a>
-            <a href="#"><li>Serviços</li></a>
-            <a href="#"><li>Sobre</li></a>
-            <a href="#"><li>Contato</li></a>
-            <a href="#" id="inscreva-se-btn"><li>Já tem uma conta?</li></a>
-        </ul>
+<body>
+
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="Logo">
+                </a>
+            </div><!-- logo -->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#">paralelepipedo</a></li>
+                    <li><a href="#">paralelepipedoe</a></li>
+                    <li><a href="#">paralelepipedo</a></li>
+                    <li><a href="#">paralelepipedo</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="#">
+                    <button>contato</button>
+                </a>
+            </div><!-- btn-contato -->
+        </div><!-- interface -->
     </header>
 
     <main>
-        <aside>
-            <h2><span>Inscreva-se agora</span></h2>
-            <h2>na Newslatter</h2>
-            <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-            </p>
-            <form>
-                <input type="text" placeholder="Nome">
-                <input type="email" placeholder="E-mail">
-                <input type="submit" value="Enviar >">
-            </form>
-        </aside>
 
-        <article>
-            <img src="./components/images/77d0a7c454e658833800528e748edbe9.png" alt="mulher-roxa">
-        </article>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>VIAGE PELO MUNDO E ME DE SEU DINHEIRO<span>.</span></h1>
+                        <p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
+
+                        <div class="btn-contato">
+                            <a href="#">
+                                <button>Viaje conosco</button>
+                            </a>
+                        </div>
+                    </div><!-- txt-topo-site -->
+
+                    <div class="img-topo-site">
+                        <img src="images/pessoa.png" alt="">
+                    </div><!-- img-topo-site -->
+                </div><!-- Flex -->
+            </div><!-- interface -->
+        </section><!-- topo-do-site -->
+
+        <section class="especialidades">
+            <div class="interface">
+                <h2 class="titulo">Especialidades da <span>Gueasy</span></h2>
+                <div class="flex">
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-code-slash"></i>
+                        <h3>TESTE</h3>
+                        <p>blz blz blz blz blz blzblz blzblz blzblz blzblz blzblz blzblz blzblz blzblz blzblz blzblz blzblz blz</p>
+                    </div><!-- especialidades-box -->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-code-slash"></i>
+                        <h3>TESTE</h3>
+                        <p>blz blz blz blz blz blzblz blzblz blzblz blzblz blzblz blzblz blzblz blzblz blzblz blzblz blzblz blz</p>
+                    </div><!-- especialidades-box -->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-code-slash"></i>
+                        <h3>TESTE</h3>
+                        <p>blz blz blz blz blz blzblz blzblz blzblz blzblz blzblz blzblz blzblz blzblz blzblz blzblz blzblz blz</p>
+                    </div><!-- especialidades-box -->
+
+                </div><!-- flex -->
+            </div><!-- Interface -->
+        </section><!-- especialidades -->
+
+        <section class="sobre">
+            <div class="interface">
+                <div class="flex">
+
+                    <div class="img-sobre">
+                        <img src="images/foto.png" alt="">
+                    </div><!-- img-sobre -->
+
+                    <div class="txt-sobre">
+
+                        <h2>Somo a <span>Gueasy</span></h2>
+
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus atque consequatur autem facilis ex cumque tempora doloribus optio consequuntur minima, libero eum hic sint voluptates placeat magnam perferendis adipisci? Cupiditate!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quia quaerat, maxime earum cupiditate ipsum ipsam minima assumenda eaque illo consequuntur numquam culpa commodi porro reprehenderit eveniet voluptatem deleniti exercitationem.</p>
+
+                        <div class="btn-social">    
+                            <a href="#"><button><i class="bi bi-amd"></i></button></a>
+                            <a href="#"><button><i class="bi bi-amd"></i></button></a>
+                            <a href="#"><button><i class="bi bi-amd"></i></button></a>
+                        </div><!-- btn-social -->
+
+                    </div><!-- txt-sobre -->
+
+                </div><!-- flex -->
+            </div><!-- interface -->
+        </section><!-- sobre -->
+
     </main>
     
 </body>
+
 </html>
